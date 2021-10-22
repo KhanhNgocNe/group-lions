@@ -79,15 +79,81 @@
         
         <?php
     if(isset($_GET['page']))
-      {
-        $page = $_GET['page'];
-          if($page=="home"){
-            include_once("home.php");
-          }
+    {
+      $page = $_GET['page'];
+        if($page=="home"){
+          include_once("home.php");
         }
-    else{
-        include("home.php");
+        else if($page=="aboutus"){
+          include_once("aboutus.php");
+        }
+        else if($page=="contact"){
+          include_once("contact.php");
+        }
+        else if($page=="cart"){
+          include_once("cart.php");
+        }
+        else if($page=="register"){
+          include_once("register.php");
+        }
+        else if($page=="login"){
+          include_once("LoginJS1.php");
+        }
+        else if($page=="logout"){
+          include_once("logout.php");
+        }
+        else if($page=="lv"){
+          include_once("lv.php");
+        }
+        else if($page=="mcm"){
+          include_once("mcm.php");
+        }
+        else if($page=="gucci"){
+          include_once("gucci.php");
+        }
+        else if($page=="lelabo"){
+          include_once("lelabo.php");
+        }
+        else if($page=="chanel"){
+          include_once("chanel.php");
+        }
+        else if($page=="dior"){
+          include_once("dior.php");
+        }
+        else if($page=="allproduct"){
+          include_once("allproduct.php");
+        }
+        else if($page=="ortherproduct"){
+          include_once("ortherproduct.php");
+        }
+        else if($page=="category_management"){
+          include_once("Category_Management.php");
+        }
+        else if($page=="product_management"){
+          include_once("Product_Management.php");
+        }
+        else if($page=="add_category"){
+          include_once("Add_Category.php");
+        }
+        else if($page=="update_category"){
+          include_once("Update_Category.php");
+        }
+        else if($page=="add_product"){
+          include_once("Add_Product.php");
+        }
+        else if($page=="update_product"){
+          include_once("Update_Product.php");
+        }
+        else if($page=="update_customer"){
+          include_once("Update_customer.php");
+        }
+        else if($page=="update_customer"){
+          include_once("Update_customer.php");
+        }
       }
+  else{
+      include("home.php");
+    }
             ?>
 
 
