@@ -74,19 +74,7 @@
             </div>
           </nav>
 
-          <div class="btn-group"style="background: #white;" >
-          <a href="?page=allproduct"><button type="btn-group" class="btn btn-defaul">All Product</button></a>
-          <a href="?page=lv"><button type="btn-group" class="btn btn-defaul">Louis Vuitton</button></a>
-          <a href="?page=mcm"><button type="btn-group" class="btn btn-defaul">MCM</button></a>
-          <a href="?page=gucci"><button type="btn-group" class="btn btn-defaul">Gucci</button></a>
-          <a href="?page=lelabo"><button type="btn-group" class="btn btn-defaul">LeLaBo</button></a>
-          <a href="?page=chanel"><button type="btn-group" class="btn btn-defaul">Chanel</button></a>
-          <a href="?page=dior"><button type="btn-group" class="btn btn-defaul">Dior</button></a>
-          <a href="?page=ortherproduct"><button type="btn-group" class="btn btn-defaul">Orther Product</button></a>
-          <a href="?page=category_management"><button type="btn-group" class="btn btn-defaul">Management Category</button></a>
-          <a href="?page=product_management"><button type="btn-group" class="btn btn-defaul">Management Product</button></a>
-          <br>
-        </div>
+         
       <br>
         
         <?php
@@ -95,72 +83,6 @@
         $page = $_GET['page'];
           if($page=="home"){
             include_once("home.php");
-          }
-          else if($page=="aboutus"){
-            include_once("aboutus.php");
-          }
-          else if($page=="contact"){
-            include_once("contact.php");
-          }
-          else if($page=="cart"){
-            include_once("cart.php");
-          }
-          else if($page=="register"){
-            include_once("register.php");
-          }
-          else if($page=="login"){
-            include_once("LoginJS1.php");
-          }
-          else if($page=="logout"){
-            include_once("logout.php");
-          }
-          else if($page=="lv"){
-            include_once("lv.php");
-          }
-          else if($page=="mcm"){
-            include_once("mcm.php");
-          }
-          else if($page=="gucci"){
-            include_once("gucci.php");
-          }
-          else if($page=="lelabo"){
-            include_once("lelabo.php");
-          }
-          else if($page=="chanel"){
-            include_once("chanel.php");
-          }
-          else if($page=="dior"){
-            include_once("dior.php");
-          }
-          else if($page=="allproduct"){
-            include_once("allproduct.php");
-          }
-          else if($page=="ortherproduct"){
-            include_once("ortherproduct.php");
-          }
-          else if($page=="category_management"){
-            include_once("Category_Management.php");
-          }
-          else if($page=="product_management"){
-            include_once("Product_Management.php");
-          }
-          else if($page=="add_category"){
-            include_once("Add_Category.php");
-          }
-          else if($page=="update_category"){
-            include_once("Update_Category.php");
-          }
-          else if($page=="add_product"){
-            include_once("Add_Product.php");
-          }
-          else if($page=="update_product"){
-            include_once("Update_Product.php");
-          }
-          else if($page=="update_customer"){
-            include_once("Update_customer.php");
-          }
-          else if($page=="update_customer"){
-            include_once("Update_customer.php");
           }
         }
     else{
