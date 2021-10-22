@@ -84,7 +84,7 @@
         if($page=="home"){
           include_once("home.php");
         }
-        
+
       }
   else{
       include("home.php");
