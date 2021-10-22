@@ -17,7 +17,7 @@
 include_once("connection.php");
 ?>
   <body>
-  <div class="bg-1">
+    <div class="bg-1">
     <div class="container">
       <div class="row text-center">
       <?php
